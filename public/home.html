@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#button").click(function () {
+                $("#myDIV").toggle(700);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#button1").click(function () {
+                $("#myDIV1").toggle(700);
+            });
+        });
+    </script>
+    <title>Arnas Sokolovas</title>
+</head>
+
+<body class="bg">
+    <main class="site-content">
+        <div class="navigation-menu">
+            <input type="button" class="navigation-item" value="About Me" onclick="window.location='home.html';">
+            <input type="button" class="navigation-item" value="My Education" onclick="window.location='myEducation.html';">
+            <input type="button" class="navigation-item" value="Portfolio" onclick="window.location='portfolio.html';">
+            <input type="button" class="navigation-item" value="Contacts" onclick="window.location='contacts.html';">
+            <input type="button" class="navigation-item" value="LinkedIn">
+        </div>
+        <div class="container-main">
+
+            <div class="row">
+                <div class="col-75">
+                    <div class="container-main-item1">
+                        <div class="header-title">Arnas Sokolovas</div>
+                        <hr>
+                        <div class="header-sub-subtitle">AP Degree Graduate in Computer Science</div>
+                        <hr>
+                        <p>
+                            <img src="img/photo1.jpeg" width="250" height="250">
+                            <div class="header-sub-subtitle">About Me</div>
+                            <p>
+                                Hello, my name is Arnas Sokolovas, I am 24 years old and I am Lithuanian. I am living in Aalborg over 5 years already and
+                                I see my future here in this beautiful and friendly country. I see myself as a friendly,
+                                open minded, seeking for challenges and adventures person. During my free time I love spending
+                                time with my friends, getting to know my surroundings and people around me, as well working
+                                on different small projects, which is fun and intimidating for me, since I am creative and
+                                full of ideas person.
+                            </p>
+                            <p>
+                                I have graduated University College of Northern Denmark in Januray 2018 and I am currently waiting for top-up programme in
+                                Web Development and seeking for job or internship opportunities. This way I can continue
+                                expanding my field of knowledge in Web Development and become better in my field.
+                            </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-25">
+                    <div class="container-main-item1">
+                        <div class="header-subtitle">My Competencies</div>
+                        <hr>
+                        <p>
+                            My
+                            <b>professional competencies</b> are:
+                            <li>Communicative and collaborative</li>
+                            <li>Minor experience in fullstack web development </li>
+                            <li>Adaptive and good learner </li>
+                            <li>Able to work under modern software development methodologies
+                            </li>
+                        </p>
+                        <p>
+                            My
+                            <b>personal competencies</b> are:
+                            <li>Critical thinking</li>
+                            <li>Problem solving</li>
+                            <li>Motivated and ambitious</li>
+                            <li>Optimistic</li>
+                            <li>Ambitious and dedicated
+                            </li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50-1">
+                <input id="button" type="button" class="navigation-item" value=" show My hobbies" onclick="myFunction()">
+            </div>
+            <div class="col-50-2">
+                <input id="button1" type="button" class="navigation-item" value=" show additional exp" onclick="myFunction()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50-1">
+                <div class="container-main-item1" id="myDIV">
+                    <div class="header-subtitle">My Competencies</div>
+                    <hr>
+                    <p>
+                        My
+                        <b>professional competencies</b> are:
+                        <li>Communicative and collaborative</li>
+                        <li>Minor experience in fullstack web development </li>
+                        <li>Adaptive and good learner </li>
+                        <li>Able to work under modern software development methodologies
+                        </li>
+                    </p>
+                </div>
+            </div>
+            <div class="col-50-2">
+                <div class="container-main-item1" id="myDIV1">
+                    <div class="header-subtitle">My Competencies</div>
+                    <hr>
+                    <p>
+                        My
+                        <b>professional competencies</b> are:
+                        <li>Communicative and collaborative</li>
+                        <li>Minor experience in fullstack web development </li>
+                        <li>Adaptive and good learner </li>
+                        <li>Able to work under modern softwarex development methodologies
+                        </li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at corporis, impedit aliquid fuga, fugiat praesentium dolores
+                        molestiae, pariatur odit vero eum natus animi suscipit nemo dicta! Aliquid, libero odit?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy 2018 Arnas Sokolovas</p>
+    </footer>
+</body>
+
+</html>
